@@ -1,4 +1,4 @@
-# Cloud Native Project – Project Overview 
+# Atos Cloud Native Project – Overview 
  
 ## Introduction 
  

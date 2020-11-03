@@ -9,7 +9,8 @@ Trainees can post help tickets to the queue, with oldest tickets at the top of t
 When a ticket has been solved, it is marked as "Done" by the user and added to a separate "Completed" list. The next-oldest ticket is moved to the top of the list. 
 
 Here is a quick mockup of what the UI could look like to give you an idea: 
-ui-mockup 
+
+![mockup](images/ui-mockup.png)
 
 At its most basic functionality, the ticket should comprise of: 
 

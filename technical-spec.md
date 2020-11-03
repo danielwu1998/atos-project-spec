@@ -10,7 +10,7 @@ When a ticket has been solved, it is marked as "Done" by the user and added to a
 
 Here is a quick mockup of what the UI could look like to give you an idea: 
 
-![mockup](images/ui-mockup.png)
+![mockup](images/mockup-ui.png)
 
 At its most basic functionality, the ticket should comprise of: 
 

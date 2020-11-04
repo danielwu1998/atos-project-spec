@@ -45,7 +45,7 @@ As you add more functionality, you will naturally need to add more backend servi
 
 ### Database 
 
-Data should be persisted in a managed AWS RDS database. You will have to create the table schema for this yourself. 
+Data should be persisted in a managed GCP SQL database. You will have to create the table schema for this yourself. 
 
 Below is the expected entity diagram for a Ticket in the help queue. 
 

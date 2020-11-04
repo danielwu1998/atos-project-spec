@@ -56,11 +56,11 @@ To achieve this, you will make use of the following technologies:
  
 The time constraint for this project is 4 weeks. You must plan the work around this time constraint. 
 You must plan your project utilising Agile Scrum methodology. This should include: 
-Assigning a Scrum Master 
-Creating a Product Backlog 
-Creating a Kanban Board 
-Creating User Stories 
-Organising work into Sprints and holding Sprint Retrospectives 
+- Assigning a Scrum Master 
+- Creating a Product Backlog 
+- Creating a Kanban Board 
+- Creating User Stories 
+- Organising work into Sprints and holding Sprint Retrospectives 
  
 ## Software Development 
  

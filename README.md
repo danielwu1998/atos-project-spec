@@ -25,7 +25,7 @@ This is a group project. As a result, this project is designed in part to test
  
 You are expected to follow an Agile approach to your project management, requiring you to organise your project into Sprints, assign scrum roles and produce a product backlog in the form of a Kanban board. 
  
-You are expected to fully develop an application based on a specification that has been provided for you. The application is for use as a teaching aid tool. 
+You are expected to fully develop an application based on a specification that has been provided for you. The application is for use as a ticketing system for internal use within Atos, e.g. for IT support. 
  
 In addition, you are expected to produce a basic CI pipeline to integrate and deploy new code as it is created. 
  
@@ -33,11 +33,11 @@ You will have 4 weeks to deliver this project. At the end of these four weeks, y
  
 ## Application Specification 
  
-The application you are tasked to develop is a Spring Boot Help Queue application with full CRUD functionality for practical use as a teaching aid. 
+The application you are tasked to develop is a Spring Boot Help Queue application with full CRUD functionality for practical use as a support ticket system. 
  
-The concept is a web-hosted application that learners can access to post help tickets to a publicly accessible help queue. 
+The concept is a web-hosted application that Atos employees can access to post help tickets to a publicly accessible help queue. 
  
-Teachers can then use this queue to recognise who has asked for help and who has been waiting the longest. When a leaner has received the help they need, they can mark the ticket as "Done". 
+Support staff can then use this queue to recognise who has asked for help and who has been waiting the longest. When an employee has received the support they need, they can mark the ticket as "Done". 
  
 The full specification is detailed in the Technical Specification document provided with this project outline. 
  

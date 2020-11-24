@@ -2,9 +2,9 @@
 
 For this project, you are tasked with creating a Help Queue web application. 
 
-The purpose of this application is to work as a virtual hands-up tool to alert trainers to who needs help in their class. 
+The purpose of this application is to work as a ticketing system to allow Atos employees to ask for IT support. 
 
-Trainees can post help tickets to the queue, with oldest tickets at the top of the list. Trainers can then view the queue to see who needs help next. 
+Employees can post help tickets to the queue, with oldest tickets at the top of the list. Support staff can then view the queue to see who needs help next. 
 
 When a ticket has been solved, it is marked as "Done" by the user and added to a separate "Completed" list. The next-oldest ticket is moved to the top of the list. 
 
@@ -55,7 +55,7 @@ Multiple features in this specification will require you to add more entities to
 
 There are multiple stages of development for this application. Each stage increases in complexity. 
  
-In addition to basic functionality, you are expected to implement at least 3 features by the end of this project. 
+In addition to basic functionality, you are expected to implement at least 2 features by the end of this project. 
 
 #### Basic Functionality 
 
@@ -69,17 +69,11 @@ Users will be able to:
 
 #### Solutions 
 
-When a ticket is being marked as "Done", users should be able to add a solution to that ticket, allowing other users to see the solutions to a problem that has already been solved. 
+When a ticket is being marked as "Done", users (employees or support staff) should be able to add a solution to that ticket, allowing other employees to see the solutions to a problem that has already been solved. 
 
-#### Classrooms
+#### Departments
 
-Implement a help queue per classroom, such that learners can navigate to their classroom to see the help queue specific to their class. 
-
-A class page should display the teachers and learners that make up that cohort. 
-
-#### Assignment 
-
-Users can assign trainees and trainers to a help ticket. The trainers/trainees they can assign should be dependent on the current cohort. 
+Implement a help queue per department, such that employees can view tickets that pertain to their department specifically.
 
 #### Filtering 
 
@@ -89,6 +83,7 @@ Users can filter/arrange tickets based on attributes such as:
 - Date Newest -> Oldest 
 - Urgency 
 - Title (alphabetically) 
+- Topic
 
 #### Topics 
 
@@ -117,17 +112,17 @@ Users should only be able to:
 - Mark tickets they have created as done 
 - View the help queue for the cohort they are part of 
 
-Implement two levels of privilege: trainer and trainee. 
+Implement two levels of privilege: employee and support staff. 
 
-Trainer privileges: 
+Support Staff privileges: 
 - Only one who can close tickets 
 - Can add answers to tickets 
-- Able to update or delete any trainee's tickets 
-- Can view any cohort's help queue 
-Trainee privileges: 
-- Cannot update or delete other trainee's tickets 
+- Able to update or delete any employee's tickets 
+- Can view any department's help queue 
+Employee privileges: 
+- Cannot update or delete other employee's tickets 
 - Cannot mark a ticket as "Done" 
-- Can only view their own cohort's help queue 
+- Can only view their own department's help queue 
 </details>
 
 ## CI Pipeline 
